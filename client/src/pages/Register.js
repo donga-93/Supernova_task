@@ -1,7 +1,6 @@
 import React, { useContext,useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import './register.scss';
 import { useMutation } from '@apollo/react-hooks';
 import gql from 'graphql-tag';
 import { useNavigate } from "react-router-dom";
